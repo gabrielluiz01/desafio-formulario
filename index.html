@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+	<title>Desafio Formulário</title>
+</head>
+<body>
+	<main class="containermain">
+		<section>
+			<img class="containermain__image" 
+				 src="assets/vainaweb.jpg">
+		</section>
+			<h2 class="containermain__subtitulo">Welcome to Crowdrise</h2>
+		<p class="containermain__paragrafo">Let's get you all set up so you can verify your nonprofit and begin setting up your first campaing!<br><br><br>
+			Already have an account? <a class="containermain__link"href="login.html" target="_blank">Log in</a></p>
+		<form class="containermain__formulario">
+			<table>
+				<tr>
+					<td>
+						<label>First Name <br>
+							<input class="containermain__input" 
+								  type="name" name="nome" placeholder="Nome">
+						</label>
+					</td>
+					<td>
+						<label>Last Name <br>
+							<input class="containermain__input" 
+								  type="name" name="sobrenome" placeholder="Sobrenome">
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Phone <br>
+							<input class="containermain__input" 
+								  type="tel" name="telefone" placeholder="(xx)xxxxx xxxx">
+						</label>
+					</td>
+					<td>
+						<label>Email <br>
+							<input class="containermain__input" 
+								  type="email" name="email" placeholder="Email">
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Password <br>
+							<input class="containermain__input" 
+								  type="text" name="senha">						
+						</label>
+					</td>
+					<td>
+						<label>Confirm Password <br>
+							<input class="containermain__input" 
+								  type="text" name="confirmar senha">
+						</label>
+					</td>
+				</tr>
+			</table>
+			<input class="containermain__input" 
+			 	  type="checkbox" name="receive enails"> Yes, I want to receive Crowdrise's emails<br><br>
+			<input class="containermain__input" 
+				   type="checkbox" name="i agree terms"> I agree to the <a class="containermain__link" href="#">Terms, Privacy</a> and 
+			<a class="containermain__link" href="#">Fess</a>
+			<div class="containermain__linha"></div>
+			<p class=" containermain__paragrafo2">Don't work for a nonprofit? <a class="containermain__link" href="#">You can still fundraise for one.
+			</a></p>
+		</form>	
+	</main>
+</body>
+</html>
